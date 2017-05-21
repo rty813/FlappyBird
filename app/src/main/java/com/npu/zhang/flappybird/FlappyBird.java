@@ -111,7 +111,7 @@ public class FlappyBird extends PApplet{
         }
         bird.setHeight(birdHeight);
         bird.setVelocity(birdVelocity);
-        ellipse(width / 6, birdHeight, 100, 100);
+//        ellipse(width / 6, birdHeight, 100, 100);
         image(birdImage, width / 6 - 50, birdHeight - 50);
         if (mousePressed){
             bird.setVelocity(-20);

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.npu.zhang.flappybird.MainActivity">
+
+    <Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击开挂"
+            android:id="@+id/btn_cheat"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:background="#00000000"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"/>
+    </Toolbar>
+
+    <FrameLayout android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</LinearLayout>
